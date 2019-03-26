@@ -12288,11 +12288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Thuctap-tcx\\NetCore\\DemoCRUD\\DemoCRUD\\DemoCRUD.csproj",
+      "projectUniqueName": "D:\\git\\DemoCRUD\\DemoCRUD\\DemoCRUD.csproj",
       "projectName": "DemoCRUD",
-      "projectPath": "D:\\Thuctap-tcx\\NetCore\\DemoCRUD\\DemoCRUD\\DemoCRUD.csproj",
+      "projectPath": "D:\\git\\DemoCRUD\\DemoCRUD\\DemoCRUD.csproj",
       "packagesPath": "C:\\Users\\vanlo\\.nuget\\packages\\",
-      "outputPath": "D:\\Thuctap-tcx\\NetCore\\DemoCRUD\\DemoCRUD\\obj\\",
+      "outputPath": "D:\\git\\DemoCRUD\\DemoCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

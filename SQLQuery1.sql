@@ -19,3 +19,10 @@ CREATE TABLE House (
 	Description nvarchar(4000),
 	Price nvarchar(100)
 );
+
+create table ImageNameOfHouse(
+	Id int identity(1,1) primary key,
+	IdImage int,
+	ImageName nvarchar(1000),
+	constraint FK_IdImage Foreign key (IdImage) references House(Id)
+);

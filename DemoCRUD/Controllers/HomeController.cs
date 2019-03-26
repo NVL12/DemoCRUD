@@ -62,6 +62,7 @@ namespace DemoCRUD.Controllers
                         await image.CopyToAsync(stream);
                         stream.Flush();
                     }
+                    IFormFile file;
                     ImageNameOfHouse imageNameOfHouse = new ImageNameOfHouse();
                     imageNameOfHouse.ImageName = image.FileName;
 
