@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "View";
+}
+@model DemoCRUD.Models.House;
+<html>
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/ViewNewsList.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                @foreach(var item in ViewBag.List)
+                {
+                    <div class="item-news">
+                        <div>
+                            <img class="item-img" src="~/images/@item.FirstImageName" />
+                        </div>
+                        <div class="item-info">
+                            <a class="caption" style="text-decoration:none" asp-action="ViewInfo" asp-route-id="@item.Id">
+                                @item.Caption
+                            </a>
+                            <p class="description">
+                                @item.Description
+                            </p>
+                            <p class="address">
+                                @item.Address
+                            </p>
+                            <div class="detail">
+                                <span style="margin-right:20px;">@item.Price</span>
+                                <span>@item.Acreage  m<sup>2</sup></span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="col-sm-4">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

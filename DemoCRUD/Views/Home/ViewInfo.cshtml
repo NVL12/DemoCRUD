@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewData["Title"] = "ViewInfo";
+}
+@model DemoCRUD.Models.House
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/ViewInfo.css" />
+</head>
+<body>
+    <div class="image">
+        <div class="pre-btn" onclick="plusSlide(-1)">
+            <a href="#" class="previous round" style="text-decoration:none;">&#8249;</a>
+        </div>
+        <div class="container">
+            <img class="img-house" src="~/images/@ViewBag.ListImage[0]" />
+            @for (int i = 1; i < Enumerable.Count(ViewBag.ListImage); i++)
+            {
+                <img class="img-house" src="~/images/@ViewBag.ListImage[i]" style="display:none;" />
+            }
+        </div>
+        <div class="next-btn" onclick="plusSlide(1)">
+            <a href="#" class="next round" style="text-decoration:none;">&#8250;</a>
+        </div>
+    </div>
+    <div class="product-detail-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 product-detail-left">
+                    <h1>@Model.Caption</h1>
+                    <span class="lb-code">ID: </span>
+                    <span class="code">@Model.Id</span>
+                    <span class="lb-code">Type:</span>
+                    <span class="code">@Model.Type</span>
+                    <p class="address">@Model.Address</p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row product-detail">
+                        <div class="col-sm-6">
+                            <p>Price: </p>
+                            <p>Acreage: </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>@Model.Price</p>
+                            <p>@Model.Acreage m<sup>2</sup></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container description">
+        <div class="row">
+            <div class="col-sm-8">
+                <p>@Model.Description</p>
+            </div>
+            <div class="col-sm-4">
+                <p>Information owner</p>
+                <span class="lb-code">Name: </span>
+                <span class="code">@Model.Name</span>
+                <br />
+                <span class="lb-code">Phone: </span>
+                <span class="code">@Model.Phone</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="button container">
+        <form asp-action="UpdateNews">
+            <input asp-for="Name" type="hidden" value="@Model.Name" />
+            <input asp-for="Price" type="hidden" value="@Model.Price" />
+            <input asp-for="Address" type="hidden" value="@Model.Address" />
+            <input asp-for="Acreage" type="hidden" value="@Model.Acreage" />
+            <input asp-for="Caption" type="hidden" value="@Model.Caption" />
+            <input asp-for="Phone" type="hidden" value="@Model.Phone" />
+            <input asp-for="Type" type="hidden" value="@Model.Type" />
+            <input asp-for="Id" type="hidden" value="@Model.Id" />
+            <input asp-for="Description" type="hidden" value="@Model.Description" />
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+        <form asp-action="DeleteNews" id="form-delete">
+            <input asp-for="Id" type="hidden" value="@Model.Id" />
+            <button class="btn btn-danger" type="submit">Delete</button>
+        </form>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/ViewInfo.js"></script>
+</body>
+</html>
+

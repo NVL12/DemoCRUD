@@ -1,0 +1,55 @@
+﻿body {
+    background-color:#f0f0f0;
+}
+.item-news {
+    background-color: #fff;
+    width: 100%;
+    height: 200px;
+    border: 1px solid;
+    box-shadow: 5px 10px #cfd1d3;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.item-img {
+    width: 200px;
+    height: 100%;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+}
+.item-info{
+    padding:10px;
+    position:relative;
+}
+.caption {
+    color: #ed4e51;
+    font-size: 25px;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.detail {
+    border-top: 1px solid #e8e8e8;
+    margin-top: 6px;
+    display: table;
+    position:absolute;
+    top: 150px;
+    left: 220px;
+    width: 60%;
+    padding: 8px 0;
+}
+.description {
+    /*height: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.address {
+    color: #0098da;
+}

@@ -1,0 +1,127 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model DemoCRUD.Models.House
+<html>
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <title>CRUD</title>
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>DEMO CRUD</h1>
+        <form asp-action="HandleInfo" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Caption</label>
+                <input asp-for="Caption" type="text" class="form-control" value="@Model.Caption" />
+                <span asp-validation-for="Caption" class="validation"></span>
+            </div>
+            <div class="form-group">
+                <label>Name</label>
+                <input asp-for="Name" type="text" class="form-control" value="@Model.Name" />
+                <span asp-validation-for="Name" class="validation"></span>
+            </div>
+            <div class="form-group">
+                <label>Phone</label>
+                <input asp-for="Phone" type="text" class="form-control" value="@Model.Phone" />
+                <span asp-validation-for="Phone" class="validation"></span>
+            </div>
+            <div class="form-group">
+                <label>Address</label>
+                <input asp-for="Address" type="text" class="form-control" value="@Model.Address" />
+                <span asp-validation-for="Address" class="validation"></span>
+            </div>
+            <div class="form-group">
+                <label>Description</label>
+                <textarea asp-for="Description" class="form-control">@Model.Description</textarea>
+
+            </div>
+            <div class="form-group">
+                <label>Price</label>
+                <input asp-for="Price" type="text" class="form-control" value="@Model.Price" />
+                <span asp-validation-for="Price" class="validation"></span>
+            </div>
+            <div class="form-group">
+                <label>Acreage</label>
+                <input asp-for="Acreage" type="text" class="form-control" placeholder="m2" value="@Model.Acreage" />
+                <span asp-validation-for="Acreage" class="validation"></span>
+            </div>
+            <div class="form-group">
+                <label>Types</label>
+                <br />
+                @if (Model.Type == "Villa")
+                {
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" checked="checked" value="Villa" />Villa
+                    </label>
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" value="Apartment" />Apartment
+                    </label>
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" value="House" />House
+                    </label>
+                }
+                else if (Model.Type == "Apartment")
+                {
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" value="Villa" />Villa
+                    </label>
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" checked="checked" value="Apartment" />Apartment
+                    </label>
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" value="House" />House
+                    </label>
+                }
+                else if (Model.Type == "House")
+                {
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" value="Villa" />Villa
+                    </label>
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" value="Apartment" />Apartment
+                    </label>
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" checked="checked" value="House" />House
+                    </label>
+                }
+                else
+                {
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" value="Villa" />Villa
+                    </label>
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" value="Apartment" />Apartment
+                    </label>
+                    <label class="radio-inline">
+                        <input asp-for="Type" type="radio" checked="checked" value="House" />House
+                    </label>
+                }
+                <span asp-validation-for="Type" class="validation"></span>
+            </div>
+            <div class="form-group">
+                <label>Images</label>
+                <input asp-for="ListImageFile" type="file" multiple class="form-control" />
+                <span asp-validation-for="ListImageFile" class="validation"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Id" type="hidden" value="@Model.Id" />
+            </div>
+            <div class="form-group">
+                <button class="btn btn-success form-control" type="submit">Ok</button>                
+            </div>
+            <div class="form-group">
+                <button class="btn btn-info form-control" type="reset">Reset</button>
+            </div>
+        </form>
+        <form asp-action="HandleInfo">
+            <input name="Cancel" type="hidden" value="Cancel" />
+            <button class="btn btn-warning form-control" type="submit">Cancel</button>
+        </form>
+    </div>
+    
+</body>
+</html>
