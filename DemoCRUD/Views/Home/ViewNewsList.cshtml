@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
-                @foreach(var item in ViewBag.List)
+                @foreach (var item in ViewBag.List)
                 {
                     <div class="item-news">
                         <div>
@@ -28,9 +28,35 @@
                             <p class="address">
                                 @item.Address
                             </p>
-                            <div class="detail">
-                                <span style="margin-right:20px;">@item.Price</span>
-                                <span>@item.Acreage  m<sup>2</sup></span>
+                            <div class="detail row">
+                                <div class="col-sm-8">
+                                    <span style="margin-right:20px;">@item.Price</span>
+                                    <span>@item.Acreage  m<sup>2</sup></span>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="form-group text-right">
+                                        <form asp-action="UpdateNews">
+                                            <input asp-for="Name" type="hidden" value="@item.Name" />
+                                            <input asp-for="Price" type="hidden" value="@item.Price" />
+                                            <input asp-for="Address" type="hidden" value="@item.Address" />
+                                            <input asp-for="Acreage" type="hidden" value="@item.Acreage" />
+                                            <input asp-for="Caption" type="hidden" value="@item.Caption" />
+                                            <input asp-for="Phone" type="hidden" value="@item.Phone" />
+                                            <input asp-for="Type" type="hidden" value="@item.Type" />
+                                            <input asp-for="Id" type="hidden" value="@item.Id" />
+                                            <input asp-for="Description" type="hidden" value="@item.Description" />
+                                            <button type="submit" class="btn btn-primary">Update</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="form-group text-right">
+                                        <form asp-action="DeleteNews" id="form-delete">
+                                            <input asp-for="Id" type="hidden" value="@item.Id" />
+                                            <button class="btn btn-danger" type="submit">Delete</button>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -40,7 +66,19 @@
 
             </div>
         </div>
+        <div class="form-group">
+            <form asp-action="Add" method="post">
+                <button type="submit" class="btn btn-success">Add news</button>
+            </form>
+        </div>
     </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        //Confirm before delete
+        $("body").on("submit", "#form-delete", function () {
+            return confirm("Do you want to delete?");
+        });
+    </script>
 </body>
 </html>
 

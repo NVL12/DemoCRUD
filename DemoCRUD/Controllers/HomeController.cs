@@ -27,9 +27,22 @@ namespace DemoCRUD.Controllers
         {
             //because view Index has two controller references
             //from Update controller, transfer into a model wanna update
-            //from Index controller, create empty model 
+            //from Index controller, create empty model
+            
+
+            //House house = new House();
+            //return View(house);
+
+            List<House> ListNewsHouse = GetAllInfoHouse();
+            ViewBag.List = ListNewsHouse;
+            return View("ViewNewsList");
+        }
+
+        [HttpPost]
+        public IActionResult Add()
+        {
             House house = new House();
-            return View(house);
+            return View("Index", house);
         }
         [HttpPost]
         public async Task<IActionResult> HandleInfo(House house, string cancel)
@@ -62,9 +75,10 @@ namespace DemoCRUD.Controllers
                         await image.CopyToAsync(stream);
                         stream.Flush();
                     }
-                    IFormFile file;
-                    ImageNameOfHouse imageNameOfHouse = new ImageNameOfHouse();
-                    imageNameOfHouse.ImageName = image.FileName;
+                    ImageNameOfHouse imageNameOfHouse = new ImageNameOfHouse
+                    {
+                        ImageName = image.FileName
+                    };
 
                     _imageNameRepository.AddImageName(imageNameOfHouse, idImage);
                 }
