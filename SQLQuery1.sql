@@ -1,5 +1,6 @@
-use WebBDS
+
 create database WebBDS
+use WebBDS
 
 create table AccountCustomer(
 	Name nvarchar(100),
@@ -10,14 +11,14 @@ create table AccountCustomer(
 
 CREATE TABLE House (
 	Id int identity(1,1) primary key,
-	Acreage nvarchar(100),
+	Acreage float(50),
 	Caption nvarchar(1000),
 	Type nvarchar(100),
 	Address nvarchar(1000),
 	Name nvarchar(100),
 	Phone nvarchar(100),
 	Description nvarchar(4000),
-	Price nvarchar(100)
+	Price float(50)
 );
 
 create table ImageNameOfHouse(

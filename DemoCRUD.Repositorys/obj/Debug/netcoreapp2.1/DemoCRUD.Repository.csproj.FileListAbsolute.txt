@@ -1,0 +1,16 @@
+D:\git\DemoCRUD\DemoCRUD.Repositorys\obj\Debug\netcoreapp2.1\DemoCRUD.Repository.csproj.CoreCompileInputs.cache
+D:\git\DemoCRUD\DemoCRUD.Repositorys\obj\Debug\netcoreapp2.1\DemoCRUD.Repository.AssemblyInfoInputs.cache
+D:\git\DemoCRUD\DemoCRUD.Repositorys\obj\Debug\netcoreapp2.1\DemoCRUD.Repository.AssemblyInfo.cs
+D:\git\DemoCRUD\DemoCRUD.Repositorys\bin\Debug\netcoreapp2.1\DemoCRUD.Repository.deps.json
+D:\git\DemoCRUD\DemoCRUD.Repositorys\bin\Debug\netcoreapp2.1\DemoCRUD.Repository.dll
+D:\git\DemoCRUD\DemoCRUD.Repositorys\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\git\DemoCRUD\DemoCRUD.Repositorys\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\git\DemoCRUD\DemoCRUD.Repositorys\obj\Debug\netcoreapp2.1\DemoCRUD.Repository.csprojAssemblyReference.cache
+D:\git\DemoCRUD\DemoCRUD.Repositorys\obj\Debug\netcoreapp2.1\DemoCRUD.Repository.csproj.CopyComplete
+D:\git\DemoCRUD\DemoCRUD.Repositorys\bin\Debug\netcoreapp2.1\DemoCRUD.Repository.pdb
+D:\git\DemoCRUD\DemoCRUD.Repositorys\bin\Debug\netcoreapp2.1\DemoCRUD.Entity.dll
+D:\git\DemoCRUD\DemoCRUD.Repositorys\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.dll
+D:\git\DemoCRUD\DemoCRUD.Repositorys\bin\Debug\netcoreapp2.1\DemoCRUD.Entity.pdb
+D:\git\DemoCRUD\DemoCRUD.Repositorys\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.xml
+D:\git\DemoCRUD\DemoCRUD.Repositorys\obj\Debug\netcoreapp2.1\DemoCRUD.Repository.dll
+D:\git\DemoCRUD\DemoCRUD.Repositorys\obj\Debug\netcoreapp2.1\DemoCRUD.Repository.pdb

@@ -1,0 +1,3 @@
+D:\git\DemoCRUD\DemoCRUD.Test\obj\Debug\netcoreapp2.1\DemoCRUD.Test.csproj.CoreCompileInputs.cache
+D:\git\DemoCRUD\DemoCRUD.Test\obj\Debug\netcoreapp2.1\DemoCRUD.Test.AssemblyInfoInputs.cache
+D:\git\DemoCRUD\DemoCRUD.Test\obj\Debug\netcoreapp2.1\DemoCRUD.Test.AssemblyInfo.cs

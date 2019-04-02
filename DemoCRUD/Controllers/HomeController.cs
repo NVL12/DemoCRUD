@@ -4,11 +4,12 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using DemoCRUD.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Dapper;
+using DemoCRUD.Entity;
+using DemoCRUD.Repository.Interfaces;
 
 namespace DemoCRUD.Controllers
 {
@@ -90,8 +91,7 @@ namespace DemoCRUD.Controllers
             //if Validation Model fail => return Index View and notify invalid data
             else
             {
-                House h = new House();
-                return View("Index", h);
+                return View("Index", house);
             }
         }
 

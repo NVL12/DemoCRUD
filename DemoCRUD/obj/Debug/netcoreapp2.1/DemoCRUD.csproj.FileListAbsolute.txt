@@ -28,6 +28,12 @@ D:\Thuctap-tcx\NetCore\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.Views.
 D:\Thuctap-tcx\NetCore\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.csproj.CopyComplete
 D:\Thuctap-tcx\NetCore\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\Razor\Views\Home\ViewInfo.g.cshtml.cs
 D:\Thuctap-tcx\NetCore\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\Razor\Views\Home\ViewNewsList.g.cshtml.cs
+D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.csprojAssemblyReference.cache
+D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.csproj.CoreCompileInputs.cache
+D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.RazorAssemblyInfo.cache
+D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.RazorAssemblyInfo.cs
+D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.AssemblyInfoInputs.cache
+D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.AssemblyInfo.cs
 D:\git\DemoCRUD\DemoCRUD\bin\Debug\netcoreapp2.1\DemoCRUD.deps.json
 D:\git\DemoCRUD\DemoCRUD\bin\Debug\netcoreapp2.1\DemoCRUD.runtimeconfig.json
 D:\git\DemoCRUD\DemoCRUD\bin\Debug\netcoreapp2.1\DemoCRUD.runtimeconfig.dev.json
@@ -35,12 +41,10 @@ D:\git\DemoCRUD\DemoCRUD\bin\Debug\netcoreapp2.1\DemoCRUD.dll
 D:\git\DemoCRUD\DemoCRUD\bin\Debug\netcoreapp2.1\DemoCRUD.pdb
 D:\git\DemoCRUD\DemoCRUD\bin\Debug\netcoreapp2.1\DemoCRUD.Views.dll
 D:\git\DemoCRUD\DemoCRUD\bin\Debug\netcoreapp2.1\DemoCRUD.Views.pdb
-D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.csprojAssemblyReference.cache
-D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.csproj.CoreCompileInputs.cache
-D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.RazorAssemblyInfo.cache
-D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.RazorAssemblyInfo.cs
-D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.AssemblyInfoInputs.cache
-D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.AssemblyInfo.cs
+D:\git\DemoCRUD\DemoCRUD\bin\Debug\netcoreapp2.1\DemoCRUD.Entity.dll
+D:\git\DemoCRUD\DemoCRUD\bin\Debug\netcoreapp2.1\DemoCRUD.Repository.dll
+D:\git\DemoCRUD\DemoCRUD\bin\Debug\netcoreapp2.1\DemoCRUD.Entity.pdb
+D:\git\DemoCRUD\DemoCRUD\bin\Debug\netcoreapp2.1\DemoCRUD.Repository.pdb
 D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.TagHelpers.input.cache
 D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.TagHelpers.output.cache
 D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.RazorCoreGenerate.cache
@@ -55,6 +59,6 @@ D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml
 D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.RazorTargetAssemblyInfo.cache
 D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.RazorTargetAssemblyInfo.cs
 D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.Views.pdb
+D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.csproj.CopyComplete
 D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.dll
 D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.pdb
-D:\git\DemoCRUD\DemoCRUD\obj\Debug\netcoreapp2.1\DemoCRUD.csproj.CopyComplete
