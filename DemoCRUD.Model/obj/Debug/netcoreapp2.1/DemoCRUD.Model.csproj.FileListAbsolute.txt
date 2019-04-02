@@ -1,8 +1,0 @@
-D:\git\DemoCRUD\DemoCRUD.Model\obj\Debug\netcoreapp2.1\DemoCRUD.Model.csproj.CoreCompileInputs.cache
-D:\git\DemoCRUD\DemoCRUD.Model\obj\Debug\netcoreapp2.1\DemoCRUD.Model.AssemblyInfoInputs.cache
-D:\git\DemoCRUD\DemoCRUD.Model\obj\Debug\netcoreapp2.1\DemoCRUD.Model.AssemblyInfo.cs
-D:\git\DemoCRUD\DemoCRUD.Model\bin\Debug\netcoreapp2.1\DemoCRUD.Model.deps.json
-D:\git\DemoCRUD\DemoCRUD.Model\bin\Debug\netcoreapp2.1\DemoCRUD.Model.runtimeconfig.json
-D:\git\DemoCRUD\DemoCRUD.Model\bin\Debug\netcoreapp2.1\DemoCRUD.Model.runtimeconfig.dev.json
-D:\git\DemoCRUD\DemoCRUD.Model\bin\Debug\netcoreapp2.1\DemoCRUD.Model.dll
-D:\git\DemoCRUD\DemoCRUD.Model\obj\Debug\netcoreapp2.1\DemoCRUD.Model.csprojAssemblyReference.cache

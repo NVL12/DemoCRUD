@@ -1,3 +1,0 @@
-D:\git\DemoCRUD\DemoCRUD.Entity\obj\Debug\netcoreapp2.1\DemoCRUD.Entity.csproj.CoreCompileInputs.cache
-D:\git\DemoCRUD\DemoCRUD.Entity\obj\Debug\netcoreapp2.1\DemoCRUD.Entity.AssemblyInfoInputs.cache
-D:\git\DemoCRUD\DemoCRUD.Entity\obj\Debug\netcoreapp2.1\DemoCRUD.Entity.AssemblyInfo.cs
